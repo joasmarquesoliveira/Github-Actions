@@ -15,10 +15,10 @@ jobs:
 
     # Define os passos (steps) que compôem este job.
     steps:
-      #Primeiro passo: um nome descritivo
+      # Primeiro passo: um nome descritivo
       - name: Imprime uma mensagem no console
-      # 'run' executa um comando de linha no terminal do runner
-      run: echo "Olá, mundo! Esta é minha primeira Github Action!"
+        # 'run' executa um comando de linha no terminal do runner
+        run: echo "Olá, mundo! Esta é minha primeira Github Action!"
 
       - name: Imprime outra mensagem
-      run: echo "Até a próxima automação!"
+        run: echo "Até a próxima automação!"
